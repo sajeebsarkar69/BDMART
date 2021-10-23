@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css-->
+    <link rel="stylesheet" href="new.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>BDmart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    
+
+        <div class="row" id="nav">
+            <div class="col-2" id="logo">
+                <H2><b>BD</b><span><b><i>MART</i></b></span></H2>
+
+
+            </div>
+
+
+            <div class="col-10">
+                <svg id="toggle" onclick="myFunction()" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                    height="30" viewBox="0 0 20 20" style=" fill:#ffffff;">
+                    <path
+                        d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z">
+                    </path>
+                </svg>
+
+
+                <ul id="menu">
+                    <li><a href="https://getbootstrap.com/docs/5.1/forms/overview/">Home</a> </li>
+                    <li><a href="https://www.w3schools.com/js/default.asp">Product</a> </li>
+                    <li><a href="https://www.w3schools.com/js/default.asp">Account</a> </li>
+                    <li><a href="https://www.w3schools.com/js/default.asp"><i class="fas fa-shopping-bag"></i></a> </li>
+                    <li><a href="https://www.w3schools.com/js/default.asp"><i class="fas fa-shopping-cart"></i></i></a> </li>
+                    
+
+
+
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <!--header-->
+
+
+
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item img-fluid  active">
+                    <img src="img/1.png" class="d-block  w-100 slidpic" alt="...">
+
+                </div>
+                <div class="carousel-item img-fluid">
+                    <img src="img/2.png" class="d-block   w-100 slidpic" alt="...">
+
+                </div>
+                <div class="carousel-item img-fluid">
+                    <img src="img/3.png" class="d-block  w-100 slidpic" alt="...">
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+
+
+
+        </div>
+
+
+
+
+        <!-------product------------>
+        <div class="row">
+            <div class="col-12">
+ <h3 id="featured">Featured product</h3>
+            </div>
+
+
+        </div>
+        
+        
+       
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="product">
+
+            <div class="col">
+                <div class="card img-fluid  h-100 " id="cardpic">
+                    <img src="img/show4.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+
+                        <p>$ 200.00</p>
+                        <div id="satr">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+
+
+                        </div><br>
+                        <div><a href="" id="btn">Buy
+                                Now&#8631;</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="col">
+                <div class="card img-fluid h-100 " id="cardpic">
+                    <img src="img/cloth.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">men can use</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <p>$ 150.00</p>
+                        <div id="satr">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+
+                        </div><br>
+
+                        <a href="" id="btn">Buy Now&#8631;</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card img-fluid h-100" id="cardpic">
+                    <img src="img/parfum.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                            action.</p>
+                        <p>$ 100.00</p>
+
+                        <div id="satr">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+
+
+                        </div><br>
+
+                        <a href="" id="btn">Buy Now&#8631;</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="product">
+            <div class="col">
+                <div class="card img-fluid img-fluid h-100 " id="cardpic">
+                    <img src="img/show4.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p>$ 200.00</p>
+                        <div id="satr">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+
+
+                        </div><br>
+
+
+                        <a href="" id="btn">Buy
+                            Now&#8631;</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="col">
+                <div class="card img-fluid img-fluid h-100 " id="cardpic">
+                    <img src="img/cloth.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">men can use</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <p>$ 150.00</p>
+                        <div id="satr">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+
+                        </div><br>
+
+
+                        <a href="" id="btn">Buy Now&#8631;</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card img-fluid h-100" id="cardpic">
+                    <img src="img/parfum.jpg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                            action.</p>
+                        <p>$ 100.00</p>
+                        <div id="satr">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+
+
+                        </div><br>
+
+
+                        <a href="" id="btn">Buy Now&#8631;</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-------comming------------>
+       
+
+        <div class="row">
+            <div class="col-12">
+  <h3 id="comming">&#8450;omming soon&#8659;</h3>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div style="width: 100%;">
+            <div class="row g-3">
+
+                <div class="col-md-6">
+                    <div class="card-body" id="watchpg">
+                        <h2>MalekFarhat-WhiteBlack-Watch-Catalog</h2>
+                        <p class="card-text">This is a wider card with supporting text below <br>as a natural lead-in to
+                            additional content.<br> This content is a little bit longer.</p>
+                        <p>$ 99.00</p>
+                        <div id="satr">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+
+                        </div><br>
+
+                        <a href="" id="btn">Coming soon &#8594</a><br><br>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-md-6 img-fluid" id="watch">
+                    <img src="img/MalekFarhat-WhiteBlack-Watch-Catalog.png" class="img-fluid rounded-start"
+                        alt=".watch..">
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <div style="width: 100%;">
+            <div class="row g-3">
+
+                <div class="col-md-6">
+                    <div class="card-body" id="watchpg">
+                        <h2>MalekFarhat-WhiteBlack-Watch-Catalog</h2>
+                        <p class="card-text">This is a wider card with supporting text below <br>as a natural lead-in to
+                            additional content.<br> This content is a little bit longer.</p>
+                        <p>$ 80.00</p>
+                        <div id="satr">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+
+
+                        </div><br>
+
+                        <a href="" id="btn">Coming soon &#8594</a><br><br>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-md-6 img-fluid" id="show">
+                    <img src="img/show.jpg" class="img-fluid rounded-start" alt=".watch..">
+                </div>
+
+            </div>
+        </div><br><br>
+
+
+        <!-----------footer--------------->
+
+        <div style="width: 100%;">
+            <div class="row g-0" id="fotr">
+
+                <div class="col-md-12">
+
+
+                    <div>
+                        <h2 style="color: rgb(122, 31, 31);"> B FOR BRAND</h2>
+                        <p>BD mart is the best mart for all smart people . So do it more you will accept by all the
+                            community.Because we are awsome.
+                            <a href="sksajeeb69@gmaill.com">sksajeeb69@gmail.com</a>
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div style="width: 100%;">
+                    <div class="row g-3" id="footer">
+
+                        <div class="col-md-4">
+                            <h5 style="color: rgba(155, 8, 8, 0.692);">Contact us</h5>
+                            <a href="01773698288">&#x2706;01773698288</a><br>
+                            <a href="sksajeeb69@gmail.com">&#x2709;sksajeeb69@gmail.com</a><br>
+
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+
+
+
+                        </div>
+                        <div class="col-md-4">
+                            <h5 style="color: rgba(153, 12, 12, 0.692);">About us</h5>
+                            <li>web devlopment</li>
+                            <li>seo and marketing</li>
+                            <li>graffics design</li>
+                        </div>
+                        <div class="col-md-4">
+                            <h5 style="color: rgba(153, 14, 14, 0.678);">Our other services</h5>
+                            <p>Get our other services.you should viste our web side.see our coustomers rating and give
+                                us more order and stay with us.</p>
+
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12">
+       <h6>@@ All right recived// sajeeb sarkar</h6>
+
+                    </div>
+        
+        
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <!-- container end-->
+            </div>
+
+            <script src="bd.js"></script>
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>

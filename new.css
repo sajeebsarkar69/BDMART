@@ -1,0 +1,290 @@
+body{
+    padding: 0%;
+    margin:0%;
+   
+    overflow-x: hidden;
+    
+    background:whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.slidpic{
+    height: 400px;
+
+}
+
+ #logo{
+     padding:10px 10px ;
+ } 
+   
+
+    
+
+h2{
+    color: rgb(255, 0, 0);
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h2 span{
+    color: #057fbd;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+
+
+#nav  {
+    background:repeating-radial-gradient(#00abff,#9cf1d5);
+    padding: 10px;
+    transition: background 0.8s;
+    position:sticky
+   
+    
+}  
+
+
+
+ul li a{
+   
+    list-style: none;
+    text-decoration: none;
+    color: rgb(250, 248, 244); 
+   position: relative;
+    margin: 20px ;
+    padding: 5px;
+   font-size: 20px;
+
+}
+
+ul li {
+    display: inline;
+    
+    margin: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    
+    
+    
+
+   
+ }
+   
+   
+   
+ 
+ul li a:hover{
+    color: rgb(2, 26, 31);
+    
+}
+#toggle{
+    position: relative;
+    left: 90%;
+    
+    cursor: pointer;
+   
+}
+/*----------header cousel-------------*/
+
+#headslide{
+    display: block;
+    position: relative;
+  height: 100px;
+}
+
+
+@media only screen and (max-width: 700px){
+
+#toggle{
+    display: block;
+    position: relative;
+    top: 2%;
+   
+}
+
+#menu{
+    display:none;}
+
+
+ul li {
+    font-size: 15px;
+    display: block;}
+   
+ 
+
+ ul li a{
+     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}   
+
+.slidpic{
+    height: 300px;;
+}
+
+   /*---comming------*/
+
+  
+  
+   #show{
+    position: relative;
+    margin-left: 15%;
+}
+
+
+ 
+
+     
+}
+
+
+@media only screen and (max-width: 1050px){
+    .slidpic{
+        height: 300px;;
+    }
+    ul li a{
+        font-size: 20px;
+        display: block;
+        position: relative;}
+      
+           #toggle {
+        display: block;
+        position: absolute;
+        top: 3%;
+    }
+
+    #show{
+        position: relative;
+        margin-left: 15%;
+    }
+      
+       
+    }
+
+ 
+/*-------------comming-------------*/
+
+#watchpg{
+    
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#watchpg h2{
+    color: black;
+}
+
+#watch img{
+    left: 10%;
+    
+    
+}
+#watch img:hover{
+    transform: translateY(-15px);
+
+}
+#show{
+    margin-top: 15%;
+   
+}
+#show:hover{
+    transform: translateY(-15px);
+}
+
+#btn {
+
+    text-decoration: none;
+    padding: 5px 30px;
+    margin: 30px 0px;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 30px;
+    color: rgb(17, 2, 2);
+    background: radial-gradient(#fff,#00abff);
+    transition: background 0.5s;
+}
+
+#btn:hover{
+    background:radial-gradient(#877766,#88c2c2)
+}
+
+   
+
+
+    
+
+
+
+/*------------Featured-product------------------*/
+
+#satr i{
+    color: goldenrod;
+}
+
+
+
+
+#product{
+    
+    margin-top: 0%;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+#cardpic{
+    margin-left: 20%;
+    height: 20vh;
+    width: 250px;
+}
+#cardpic{
+    transform: translateX(-15px);
+}
+#featured{
+        text-align: center;
+        background-color: #00abff;
+        color: #fff;
+}
+
+
+
+/*---------comming ------------*/
+#comming{
+    text-align: center;
+    background-color: #00abff;
+    color: rgb(247, 248, 248);
+}
+
+
+
+
+
+/*--------footer-----------*/
+#fotr{
+    text-align: center;
+    background-color: #0580bd52;
+    color: #877766;
+    
+}
+#fotr a{
+    text-decoration: none;
+}
+#footer{
+    background-color: #00abff;
+    padding: 80px 10px;
+}
+
+#footer a{
+    color: #e2dbceef;
+}
+#footer li{
+    color: #d3cebbee;
+}
+#footer p{
+    color: #dfd9c5ec;
+}
+
+
+
+
+
+
+
+
+
+
+
